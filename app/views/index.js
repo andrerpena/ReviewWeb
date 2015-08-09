@@ -6,7 +6,7 @@ var Index = React.createClass({
 		console.log(this.props);
 		return (
 			<div>
-				this is the index view
+				this is the index view!!
 			</div>
 
 		);

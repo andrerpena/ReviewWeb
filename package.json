@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/nodemon/bin/nodemon.js --watch app --watch server -e es6,jsx,js,less,css index.js"
+    "start": "node ./node_modules/nodemon/bin/nodemon.js --watch app --watch server --debug -e es6,jsx,js,less,css index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,15 +19,19 @@
     "babel": "^5.6.23",
     "bell": "^5.0.1",
     "cheerio": "^0.19.0",
+    "css-loader": "^0.15.6",
     "hapi": "^8.8.0",
     "hapi-auth-cookie": "^3.0.1",
     "jshint": "^2.8.0",
     "json-loader": "^0.5.2",
     "jsx-loader": "^0.13.2",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
     "node-jsx": "^0.13.3",
     "nodemon": "^1.3.7",
     "react": "^0.13.3",
     "react-router": "^0.13.3",
+    "style-loader": "^0.12.3",
     "webpack": "^1.10.1"
   }
 }

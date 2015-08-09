@@ -18,5 +18,7 @@ let { Handler } = Router;
 Router.run(routes, Router.HistoryLocation, function(root, state) {
 	// <Handler> --> http://rackt.github.io/react-router/#Route Handler
 	// https://facebook.github.io/react/docs/top-level-api.html#react.render
+	console.log("styles");
+	console.log(stylesheet);
 	React.render(<Handler query={ state } path={ state.pathname }/>, document.getElementById('app'))
 });

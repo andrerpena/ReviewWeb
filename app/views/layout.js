@@ -24,12 +24,12 @@ var UserMenu = React.createClass({
 			<div>
 				<div id="login-btn">
 					<a href="/login">
-						<button className="btn btn-embossed btn-primary">Login</button>
+						<button type="button" className="btn btn-embossed btn-primary">Login</button>
 					</a>
 				</div>
 				<div id="signup-btn">
 					<a href="/signup">
-						<button className="btn btn-embossed btn-primary">Sign up</button>
+						<button type="button" className="btn btn-embossed btn-primary">Sign up</button>
 					</a>
 				</div>
 			</div>
