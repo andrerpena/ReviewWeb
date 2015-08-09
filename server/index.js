@@ -50,8 +50,8 @@ server.connection({
 //     var bellAuthOptions = {
 //         provider: 'github',
 //         password: 'github-encryption-password', //Password used for encryption
-//         clientId: 'fa96db6cba077a77804e',//'YourAppId',
-//         clientSecret: 'a9466b477e37dfa16ac60017276962f3ace1ff03',//'YourAppSecret',
+//         clientId: '***',//'YourAppId',
+//         clientSecret: '***',//'YourAppSecret',
 //         isSecure: false
 //     };
 
